@@ -1,0 +1,24 @@
+{
+  "name": "tools-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev", // Start the development server
+    "build": "next build", // Build the app for production
+    "start": "next start", // Start the production server
+    "lint": "next lint" // Run ESLint for code linting
+  },
+  "dependencies": {
+    "next": "^14.0.0", // Next.js framework
+    "react": "^18.2.0", // React library
+    "react-dom": "^18.2.0", // React DOM for rendering
+    "qrcode.react": "^3.1.0" // Example dependency for QR code generation (optional)
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0", // TypeScript (if using)
+    "@types/react": "^18.2.0", // TypeScript types for React
+    "@types/node": "^20.0.0", // TypeScript types for Node.js
+    "eslint": "^8.0.0", // ESLint for code linting
+    "eslint-config-next": "^14.0.0" // ESLint config for Next.js
+  }
+}
